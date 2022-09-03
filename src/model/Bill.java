@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.UUID;
 
 public class Bill {
-	private UUID uuid;
+	private final UUID uuid;
 	public String title;
 	public BigInteger cost;
 	public Frequency frequency;
